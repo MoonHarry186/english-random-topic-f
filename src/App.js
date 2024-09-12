@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import RandomTopic from './components/RandomTopic';
+import AddTopic from './components/AddTopic';
+import Container from './container/Container';
+import {Route, Routes} from 'react-router-dom'
+import TopicsList from './components/TopicsList';
+const pages = [
+  {
+    name: 'Random Topic',
+    url: 'random-topic'
+  },
+  {
+    name: 'Topics List',
+    url: 'topics-list'
+  }
+]
 
 function App() {
+
+
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+      <Routes>
+        <Route path='/' element={<RandomTopic />} />
+        <Route path='/topic' element={<RandomTopic />} />
+        <Route path='/add-topic' element={<AddTopic />} />
+        <Route path='/topics-list' element={<TopicsList />} />
+      </Routes>
+    </Container>
   );
 }
 
