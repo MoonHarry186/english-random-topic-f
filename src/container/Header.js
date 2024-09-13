@@ -7,7 +7,7 @@ const Header = () => {
       <div className='container m-auto'>
         <div className='flex justify-between py-4'>
         <div className='logo'>
-          <img src={images.logo} width={50} height={50} />
+          <img src={images.logo} width={50} height={50} alt='Header Logo'/>
         </div>
         <nav className='flex items-center'>
           <ul className='flex items-center justify-between gap-10'>

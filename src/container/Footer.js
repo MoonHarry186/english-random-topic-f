@@ -8,7 +8,7 @@ const Footer = () => {
         <div className='flex justify-between'>
           <div className='flex flex-col gap-2'>
             <div className='logo'>
-              <img src={images.logo} width={50} height={50} />
+              <img src={images.logo} width={50} height={50} alt="Footer Logo"/>
             </div>
             <div className='flex justify-start'>
               <span className='w-16'>Email:</span>

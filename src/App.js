@@ -3,16 +3,6 @@ import AddTopic from './components/AddTopic';
 import Container from './container/Container';
 import {Route, Routes} from 'react-router-dom'
 import TopicsList from './components/TopicsList';
-const pages = [
-  {
-    name: 'Random Topic',
-    url: 'random-topic'
-  },
-  {
-    name: 'Topics List',
-    url: 'topics-list'
-  }
-]
 
 function App() {
 
