@@ -22,28 +22,28 @@ const Footer = () => {
           <div className='flex flex-col'>
             <h3>Column 1</h3>
             <ul>
-              <li><a href='#'>Link 1</a></li>
-              <li><a href='#'>Link 2</a></li>
-              <li><a href='#'>Link 3</a></li>
-              <li><a href='#'>Link 4</a></li>
+              <li>Link 1</li>
+              <li>Link 2</li>
+              <li>Link 3</li>
+              <li>Link 4</li>
             </ul>
           </div>
           <div className='flex flex-col'>
             <h3>Column 2</h3>
             <ul>
-              <li><a href='#'>Link 1</a></li>
-              <li><a href='#'>Link 2</a></li>
-              <li><a href='#'>Link 3</a></li>
-              <li><a href='#'>Link 4</a></li>
+              <li>Link 1</li>
+              <li>Link 2</li>
+              <li>Link 3</li>
+              <li>Link 4</li>
             </ul>
           </div>
           <div className='flex flex-col'>
             <h3>Column 3</h3>
             <ul>
-              <li><a href='#'>Link 1</a></li>
-              <li><a href='#'>Link 2</a></li>
-              <li><a href='#'>Link 3</a></li>
-              <li><a href='#'>Link 4</a></li>
+              <li>Link 1</li>
+              <li>Link 2</li>
+              <li>Link 3</li>
+              <li>Link 4</li>
             </ul>
           </div>
         </div>
